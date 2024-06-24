@@ -1,4 +1,6 @@
-const navToggle = document.querySelector('.nav-toggle');
+document.addEventListener("DOMContentLoaded", function() 
+{
+ const navToggle = document.querySelector('.nav-toggle');
 const navLinks = document.querySelector('.nav__link');
 
 navToggle.addEventListener('click', function() {
@@ -8,5 +10,10 @@ navToggle.addEventListener('click', function() {
 navLinks.foreach(link => {
     link.addEventListener('click', function() {
         document.body.classList.remove('nav-open');
-    })
+    });
+});
+
+
+
 })
+
