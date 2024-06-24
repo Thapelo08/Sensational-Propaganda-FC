@@ -30,3 +30,12 @@ header {
 .contact-section {
     padding: 50px;
 }
+
+.contact-section input,
+.contact-section textarea,
+.contact-section button {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+}
