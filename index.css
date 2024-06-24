@@ -14,3 +14,19 @@ header {
     padding: 20px;
 }
 
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.home-section,
+.about-section,
+.portfolio-section,
+.contact-section {
+    padding: 50px;
+}
