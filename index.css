@@ -19,9 +19,11 @@ header {
     font-weight: bold;
 }
 
-image {
-    display: block;
-    max-width: 150%;
+img {
+    border: 1px solid #333;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
 }
 
 .nav-links li a {
