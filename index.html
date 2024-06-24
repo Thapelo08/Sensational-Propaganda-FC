@@ -7,25 +7,27 @@
         <link rel="stylesheet" href="index.css"> 
     </head>
     <body>
-        <header>
-            <nav>
-                <div class="logo">SENSATIONAL PROPAGANDA
-                   <img src="images/6533f2af-e1ae-4b5d-b24e-debedeaf9b41.jpg" alt=""> 
-                   <div class="topright"></div>
-                </div>
-                
-                <ul class="nav-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">Aboout</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+    
+            <header>
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
 
-        <section id="home" class="home-section">
-            <h1>Welcome to our Sports Portfolio!</h1>
-        </section>
+            <section class="intro" id="home">
+                <h1 class="section__title section__title--intro">
+                <strong>SENSATIONAL PROPAGANDA</strong>
+                </h1>
+                <img src="images/6533f2af-e1ae-4b5d-b24e-debedeaf9b41.jpg" alt="a picture of Jane Smith smiling" class="intro__img">
+            </section>
 
         <section id="about" class="about-section">
             <h2>About us</h2>
